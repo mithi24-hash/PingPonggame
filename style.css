@@ -1,0 +1,23 @@
+/* style.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#start-screen, #game-over-screen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+canvas {
+    display: block;
+    margin: 20px auto;
+    background: linear-gradient(to bottom, #00416a, #e4e5e6);
+    border: 2px solid white;
+}
